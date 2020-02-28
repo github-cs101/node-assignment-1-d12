@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Run Node",
-      "setup": "npm install",
+      "setup": "npm install --loglevel=error",
       "run": "npm test",
       "input": "",
       "output": "",
